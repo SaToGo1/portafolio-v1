@@ -1,15 +1,15 @@
 section {
     background-color: aquamarine;
-    padding: 50px 20px 0px 20px;
+    padding: 20px 20px 50px 20px;
 }
 
-section h2 {
+.project h2 {
     margin: 0px;
     font-size: 3rem;
-    text-align: center;
+    font-weight: 800;
 }
 
-.work {
+.projectDiv {
     display: grid;
     grid-template-columns: 372px;
     grid-template-rows: 512px;
@@ -17,6 +17,6 @@ section h2 {
     gap: 80px;
 }
 
-    .work__projectDiv {
+    .project__card {
         background-color: green;
     }

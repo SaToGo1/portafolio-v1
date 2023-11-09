@@ -1,40 +1,19 @@
-.home {
+.aboutMe {
     padding: 20px 20px 50px 20px;
-    background-color: red;
+    background-color: #f5f5db99;
     /* Image instead of background */
 }
 
-.home__titleDiv {
-    background-color: #f5f5db70;
-    margin: 0px 20px 0px 20px;
-    padding: 0px 0px 5px 0px;
-}
-
-    .home__titleDiv h1 {
-        margin: 0px;
+    .aboutMe__description h2 {
+        margin: 0;
         font-size: 3.5rem;
-        line-height: 0.8;
+        font-weight: 800;
     }
 
-    .home__titleDiv h2 {
-        margin: 0px;
-        font-size: 1.5rem;
-        line-height: 0.9;
-        text-align: left;
-    }
-
-.home__description {
-    background-color: #f5f5db99;
-    display: flex;
-    flex-direction: column;
-}
-
-    .home__description h2 {
+    .aboutMe__description p {
         margin: 0;
-        align-self: center;
-        font-size: 3rem;
     }
 
-    .home__description p {
-        margin: 0;
+    .aboutMe__icons {
+        text-align: right;
     }
