@@ -1,0 +1,22 @@
+section {
+    background-color: aquamarine;
+    padding: 50px 20px 0px 20px;
+}
+
+section h2 {
+    margin: 0px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 372px;
+    grid-template-rows: 512px;
+    grid-auto-rows: 512px;
+    gap: 80px;
+}
+
+    .work__projectDiv {
+        background-color: green;
+    }

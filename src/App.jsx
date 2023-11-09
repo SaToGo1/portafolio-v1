@@ -1,9 +1,13 @@
-import { AboutMe } from './layout/about-me/AboutMe'
+import { AboutMe } from './layout/about-me/AboutMe.jsx'
+import { Work } from './layout/work/work.jsx'
 
 function App () {
   return (
     <>
+      {/* <Header /> */ }
       <AboutMe />
+      <Work />
+      {/* <ContactMe /> */ }
     </>
   )
 }

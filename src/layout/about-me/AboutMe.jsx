@@ -2,18 +2,18 @@ import './AboutMe.css'
 
 export function AboutMe () {
   return (
-    <>
-      <header>
-        <div className='AboutMe'>
-          <div className='AboutMe__TitleDiv'>
-            <h1 className='AboutMe__Title'>Hello, Im Santiago Toledano</h1>
-          </div>
-          <div className='AboutMe__Description'>
-            <h2>About Me</h2>
-            <p>Im fullstack developer and more descriptions </p>
-          </div>
+    <section className='home'>
+      <div className='home__titleDiv'>
+        <h1>Santiago Toledano</h1>
+        <h2>Web Developer</h2>
+      </div>
+      <div className='home__description'>
+        <h2>About Me</h2>
+        <p>Im fullstack developer and more descriptions </p>
+        <div>
+          todo icons
         </div>
-      </header>
-    </>
+      </div>
+    </section>
   )
 }
