@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import './App.css'
+import { AboutMe } from './layout/about-me/AboutMe'
 
-function App() {
+function App () {
   return (
     <>
+      <AboutMe />
     </>
   )
 }
