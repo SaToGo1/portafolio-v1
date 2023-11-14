@@ -17,7 +17,3 @@ section {
     grid-auto-rows: 512px;
     gap: 80px;
 }
-
-    .project__card {
-        background-color: green;
-    }

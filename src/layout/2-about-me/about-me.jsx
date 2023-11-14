@@ -1,4 +1,4 @@
-import './AboutMe.css'
+import './about-me.css'
 
 export function AboutMe () {
   return (
