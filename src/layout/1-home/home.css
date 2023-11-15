@@ -1,7 +1,14 @@
 .home {
     padding: 40px 20px 40px 20px;
     background-color: red;
-    /* Image instead of background */
+    min-height: 100vh;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 100;
 }
 
 .home__titleDiv {
@@ -15,6 +22,7 @@
         font-size: 4rem;
         line-height: 0.8;
         font-family: Agbalumo;
+        font-weight: 900;
         color: var(--color-letter-title);
     }
 
@@ -25,3 +33,14 @@
         text-align: left;
         font-weight: 800;
     }
+
+.home__downArrow {
+    position: absolute;
+    background-color: yellow;
+    width: 50px;
+    height: 10px;
+    bottom: 20px;
+
+    left: calc(50% - 25px);
+    right: calc(50% - 25px);
+}

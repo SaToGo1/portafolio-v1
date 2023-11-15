@@ -12,7 +12,7 @@ section {
 
 .projectDiv {
     display: grid;
-    grid-template-columns: 372px;
+    grid-template-columns: 100%;
     grid-template-rows: 512px;
     grid-auto-rows: 512px;
     gap: 80px;
