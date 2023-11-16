@@ -1,9 +1,10 @@
+import './footer.css'
+
 export function Footer () {
   return (
     <footer className='footer'>
-      <p>Icon 1</p>
-      <p>Icon 2</p>
-      <p>Icon 3</p>
+      <p>Santiago Toledano</p>
+      <p>Ⓒ 2022</p>
     </footer>
   )
 }

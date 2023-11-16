@@ -1,3 +1,8 @@
 .footer {
     background-color: azure;
+    height: 10vh;
+}
+
+.footer p {
+    margin: 0;
 }

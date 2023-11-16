@@ -1,20 +1,33 @@
 .aboutMe {
-    padding: 40px 20px 40px 20px;
-    background-color: #f5f5db99;
-    /* Image instead of background */
+    height: 100vh;
+
+    background: 
+        url('../../assets/images/curiosity-mobile.jpg') right / contain no-repeat,
+        linear-gradient(#000, #222) left;
+    background-attachment: fixed;
+    padding-top: 315px;
 }
 
-    .aboutMe__description h2 {
-        margin: 0;
-        font-size: 3.5rem;
-        font-weight: 800;
-        color: var(--color-letter-title);
-    }
+.aboutMe__description {
+    border-top: 1px solid var(--color-letter-red);
+    padding: 40px 20px 40px 20px;
+    width: 100%;
+    height: 100%;
+    background: #0009;
+    background: linear-gradient(#0009, #000f);
+}
 
-    .aboutMe__description p {
-        margin: 0;
-    }
+.aboutMe__description h2 {
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--color-letter-title);
+}
 
-    .aboutMe__icons {
-        text-align: right;
-    }
+.aboutMe__description p {
+    margin: 0;
+}
+
+.aboutMe__icons {
+    text-align: right;
+}

@@ -3,10 +3,10 @@ header {
     padding: 10px;
     position: fixed;
     top: 0;
-    
+
     height: 44px;
 
-    background: linear-gradient(#FFFD, #FFF8);
+    background: linear-gradient(#000D, #0008);
 
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@ header {
 }
 
     header:hover {
-        background: linear-gradient(#FFFE 5%, #FFF9);
+        background: linear-gradient(#000E 5%, #0009);
     }
 
 .navList {

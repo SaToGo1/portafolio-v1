@@ -12,8 +12,9 @@
   font-family: Nunito, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 
-  --color-letter-title: #000000FF;
-  --color-letter-normal: #000000CC;
+  --color-letter-title: #FFFFFF;
+  --color-letter-normal: #FFFFFF;
+  --color-letter-red: #c84747;
 
   color: var(--color-letter-normal)
 }
