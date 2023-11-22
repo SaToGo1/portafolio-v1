@@ -1,13 +1,20 @@
 import './about-me.css'
+import { ExpandButton } from '../components/expand-button/expand-button'
+import { ContactIcons } from '../components/contact-icons/contact-icons'
 
 export function AboutMe () {
   return (
     <section className='aboutMe' id='aboutMe'>
       <div className='aboutMe__description'>
         <h2>About Me</h2>
-        <p>Im fullstack developer and more descriptions </p>
+        <p>Hello! I'm Santiago, a Web Developer interested in <span className='color-red'>Fullstack web applications</span> and software development. </p>
+        <p>I'm currently pursuing a <span className='color-red'>Computer Science degree </span> at the Autonomous University of Barcelona. </p>
+        <p>I love to <span className='color-red'>face new challenges and learn from them</span>. I'm always seeking for new opportunities to improve myself and my skills.</p>
         <div className='aboutMe__icons'>
-          todo icons
+          <ContactIcons />
+        </div>
+        <div className='aboutMe__buttonContainer'>
+          <ExpandButton reff='#projects' />
         </div>
       </div>
     </section>

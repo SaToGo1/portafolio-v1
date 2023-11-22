@@ -16,7 +16,7 @@
   --color-letter-normal: #FFFFFF;
   --color-letter-red: #e5201d;
 
-  --main-red-400: #ff6e6c; /* #ff6e6c */
+  --main-red-400: #ff6e6c; /* <-- */
   --main-red-500: #f83e3b;
   --main-red-600: #e5201d;
   --main-red-700: #c11614;
@@ -29,7 +29,7 @@
   
   --dark-bg-trans: rgba(20, 18, 25, 0.7);
 
-  --dark-bg-gradient: linear-gradient(var(--dark-bg-trans), var(--dark-bg));
+  /* --dark-bg-gradient: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%); */
 
   color: var(--color-letter-normal)
 }
@@ -47,6 +47,10 @@ html {
 
 p {
   font-size: 1.5rem;
+}
+
+.color-red {
+  color: var(--main-red-600);
 }
 
 /* body {

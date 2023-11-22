@@ -5,17 +5,24 @@
         url('../../assets/images/curiosity-mobile.jpg') right / contain no-repeat,
         linear-gradient(#000, #222) left;
     background-attachment: fixed;
+    background-size: cover;
+
     padding-top: 315px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .aboutMe__description {
-    border-top: 1px solid var(--color-letter-red);
+    border-top: 2px solid var(--color-letter-red);
     padding: 40px 20px 40px 20px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background: #0009;
     /* background: linear-gradient(#0009, #000f); */
-    background: var(--dark-bg-gradient);
+    background: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%);
+
+    display: flex;
+    flex-direction: column;
 }
 
 .aboutMe__description h2 {
@@ -27,8 +34,35 @@
 
 .aboutMe__description p {
     margin: 0;
+    font-size: 1rem;
 }
 
-.aboutMe__icons {
-    text-align: right;
+/* .aboutMe__icons {
+
+} */
+
+.aboutMe__buttonContainer {
+    align-self: center;
+}
+
+/* Desktop*/
+@media (min-width: 1025px) {
+    .aboutMe {
+        background: 
+            url('../../assets/images/curiosity-desktop.jpg') left / contain no-repeat,
+            linear-gradient(#000, #222) left;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .aboutMe {
+        background: 
+            url('../../assets/images/curiosity-tablet.jpg') left / contain no-repeat,
+            linear-gradient(#000, #222) left;
+        background-attachment: fixed;
+        background-size: cover;
+    }
 }

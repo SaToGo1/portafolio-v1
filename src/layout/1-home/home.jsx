@@ -1,5 +1,5 @@
 import './home.css'
-import { ExpandButton } from '../components/expand-button'
+import { ExpandButton } from '../components/expand-button/expand-button'
 
 export function Home () {
   return (
@@ -9,7 +9,7 @@ export function Home () {
         <h2>Full Stack Web Developer</h2>
       </div>
       <div className='home__buttonContainer'>
-        <ExpandButton />
+        <ExpandButton reff='#aboutMe' />
       </div>
     </section>
   )

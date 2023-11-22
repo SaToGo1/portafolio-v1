@@ -38,7 +38,7 @@
 
 .home__buttonContainer {
     position: absolute;
-    bottom: 24px;
+    bottom: 48px;
     left: calc(50% - 60px); /*60px -> button width/2 */
     background-color: var(--dark-bg);
     border-radius: 8px;
