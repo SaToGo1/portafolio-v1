@@ -1,4 +1,5 @@
 import './home.css'
+import { ExpandButton } from '../components/expand-button'
 
 export function Home () {
   return (
@@ -7,7 +8,9 @@ export function Home () {
         <h1>Santiago Toledano</h1>
         <h2>Full Stack Web Developer</h2>
       </div>
-      <div className='home__downArrow'>a</div>
+      <div className='home__buttonContainer'>
+        <ExpandButton />
+      </div>
     </section>
   )
 }

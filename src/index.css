@@ -16,11 +16,17 @@
   --color-letter-normal: #FFFFFF;
   --color-letter-red: #c84747;
 
+  --color-red: #c84747;
+  --dark-bg: #141219;
+
   color: var(--color-letter-normal)
 }
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* background-color: #1a1a2d; */
+  background-color: var(--dark-bg);
 }
 
 *, *:before, *:after {
