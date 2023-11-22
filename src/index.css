@@ -14,10 +14,22 @@
 
   --color-letter-title: #FFFFFF;
   --color-letter-normal: #FFFFFF;
-  --color-letter-red: #c84747;
+  --color-letter-red: #e5201d;
 
-  --color-red: #c84747;
+  --main-red-400: #ff6e6c; /* #ff6e6c */
+  --main-red-500: #f83e3b;
+  --main-red-600: #e5201d;
+  --main-red-700: #c11614;
+
+  --hover-gradient: linear-gradient(var(--main-red-500), var(--main-red-700));
+  
+
   --dark-bg: #141219;
+  --dark-bg-800: #3f3953;
+  
+  --dark-bg-trans: rgba(20, 18, 25, 0.7);
+
+  --dark-bg-gradient: linear-gradient(var(--dark-bg-trans), var(--dark-bg));
 
   color: var(--color-letter-normal)
 }
