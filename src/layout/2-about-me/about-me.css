@@ -6,6 +6,7 @@
     padding-top: 30vh;
     display: flex;
     align-items: flex-end;
+    margin-bottom: 48px;
 }
 
 .aboutMe__background {
@@ -28,8 +29,8 @@
 }
 
 .aboutMe__description {
-    border-top: 2px solid var(--color-letter-red);
-    padding: 40px 20px 0px 20px;
+    border-top: 3px solid var(--main-red-600);
+    padding: 48px 20px 48px var(--padding-left);
     width: 100%;
     height: 50%;
 
@@ -41,6 +42,8 @@
 
     .aboutMe__description h2 {
         margin: 0;
+        margin-bottom: 24px;
+
         font-size: 3.5rem;
         font-weight: 800;
         color: var(--color-letter-title);
@@ -51,21 +54,14 @@
         font-size: 1rem;
     }
 
-/* .aboutMe__icons {
-
-} */
+    .aboutMe__icons {
+        margin-top: 12px;
+    }
 
 .aboutMe__Stack {
-    padding: 40px 20px 40px 20px;
+    padding: 0px 20px 40px var(--padding-left);
     background: var(--dark-bg);
 }
-
-    .aboutMe__Stack h2 {
-        margin: 0;
-        font-size: 3.5rem;
-        font-weight: 800;
-        color: var(--color-letter-title);
-    }
 /* .aboutMe__buttonContainer {
     align-self: center;
 } */

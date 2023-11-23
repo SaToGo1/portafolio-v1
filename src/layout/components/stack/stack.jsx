@@ -4,7 +4,7 @@ import { TechCard } from './tech-card'
 export function Stack () {
   return (
     <div className='stackContainer'>
-      <h2>Stack</h2>
+      <h3>Stack</h3>
       <div className='stack'>
         <TechCard iconName='devicon-html5-plain colored' name='HTML' />
         <TechCard iconName='devicon-css3-plain-wordmark colored' name='CSS' />

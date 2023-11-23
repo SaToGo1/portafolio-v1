@@ -1,16 +1,18 @@
 .project {
-    background-color: aquamarine;
-    padding: 40px 20px 40px 20px;
+    background-color: transparent;
+    padding: 0px 0px 40px 0px;
 }
 
-.project h2 {
+.project__sectionTitle {
+    padding-left: var(--padding-left);
     margin: 0px;
+    margin-bottom: 24px;
     font-size: 3rem;
     font-weight: 800;
     color: var(--color-letter-title);
 }
 
-.projectDiv {
+.project__div {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 512px;

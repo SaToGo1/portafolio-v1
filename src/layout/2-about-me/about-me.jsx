@@ -1,5 +1,4 @@
 import './about-me.css'
-import { ExpandButton } from '../components/expand-button/expand-button'
 import { ContactIcons } from '../components/contact-icons/contact-icons'
 import { Stack } from '../components/stack/stack'
 

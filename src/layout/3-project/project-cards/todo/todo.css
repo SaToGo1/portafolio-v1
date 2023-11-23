@@ -1,0 +1,50 @@
+.todoContainer {
+    width: 100%;
+}
+
+.todo {
+    width: 100%;
+    height: 100%;
+
+    /* background: 
+        url('../../../../assets/images/todo-mobile.jpg') right / contain no-repeat,
+        linear-gradient(#000, #222) left;
+    background-attachment: fixed;
+    background-size: cover; */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.todo img {
+
+}
+/* .todo__divImg {
+    background-color: white;
+    width: 100%;
+    
+    flex: 6 1 0%;
+} */
+
+.todo__divText {
+    border-top: 3px solid var(--main-red-600);
+    border-top: 3px solid var(--main-green);
+    background-color: var(--dark-bg-trans);
+
+    padding: 24px 20px 0px var(--padding-left);
+    /* flex: 5 1 0%; */
+}
+
+.todo__divText h2 {
+    margin: 0px;
+    margin-bottom: 12px;
+
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-letter-title);  
+}
+
+.todo__divText p {
+    margin: 0px; 
+}
