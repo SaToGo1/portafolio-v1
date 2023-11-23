@@ -1,6 +1,6 @@
 .home {
     padding: 40px 20px 40px 20px;
-    /* background-color: red; */
+    background-color: var(--dark-bg);
     min-height: 100vh;
     position: relative;
 

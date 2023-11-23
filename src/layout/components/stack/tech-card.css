@@ -1,0 +1,17 @@
+.techCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* width: 60px; */
+    margin: 10px;
+}
+
+.techCard__icon {
+    font-size: 50px;
+    margin: 5px;
+}
+
+.techCard span {
+    font-size: 0.8rem;
+}

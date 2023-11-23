@@ -1,53 +1,78 @@
 .aboutMe {
+    position: relative;
+    min-height: 100vh;
+    background-color: transparent;
+
+    padding-top: 30vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.aboutMe__background {
+    position: absolute;
+    top: 0;
     height: 100vh;
+    width: 100vw;
+    z-index: -5;
 
     background: 
         url('../../assets/images/curiosity-mobile.jpg') right / contain no-repeat,
         linear-gradient(#000, #222) left;
     background-attachment: fixed;
     background-size: cover;
+}
 
-    padding-top: 315px;
-    display: flex;
-    align-items: flex-end;
+.aboutMe__container {
+    /* background: linear-gradient(transparent, var(--dark-bg) 70%); */
+    background-color: var(--dark-bg);
 }
 
 .aboutMe__description {
     border-top: 2px solid var(--color-letter-red);
-    padding: 40px 20px 40px 20px;
+    padding: 40px 20px 0px 20px;
     width: 100%;
-    /* height: 100%; */
-    background: #0009;
-    /* background: linear-gradient(#0009, #000f); */
+    height: 50%;
+
     background: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%);
 
     display: flex;
     flex-direction: column;
 }
 
-.aboutMe__description h2 {
-    margin: 0;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: var(--color-letter-title);
-}
+    .aboutMe__description h2 {
+        margin: 0;
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: var(--color-letter-title);
+    }
 
-.aboutMe__description p {
-    margin: 0;
-    font-size: 1rem;
-}
+    .aboutMe__description p {
+        margin: 0;
+        font-size: 1rem;
+    }
 
 /* .aboutMe__icons {
 
 } */
 
-.aboutMe__buttonContainer {
-    align-self: center;
+.aboutMe__Stack {
+    padding: 40px 20px 40px 20px;
+    background: var(--dark-bg);
 }
+
+    .aboutMe__Stack h2 {
+        margin: 0;
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: var(--color-letter-title);
+    }
+/* .aboutMe__buttonContainer {
+    align-self: center;
+} */
 
 /* Desktop*/
 @media (min-width: 1025px) {
-    .aboutMe {
+    .aboutMe__background {
         background: 
             url('../../assets/images/curiosity-desktop.jpg') left / contain no-repeat,
             linear-gradient(#000, #222) left;
@@ -58,7 +83,7 @@
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .aboutMe {
+    .aboutMe__background {
         background: 
             url('../../assets/images/curiosity-tablet.jpg') left / contain no-repeat,
             linear-gradient(#000, #222) left;
