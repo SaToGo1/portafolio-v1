@@ -1,6 +1,7 @@
 import './about-me.css'
 import { ContactIcons } from '../components/contact-icons/contact-icons'
 import { Stack } from '../components/stack/stack'
+import { ExpandButton } from '../components/expand-button/expand-button'
 
 export function AboutMe () {
   return (
@@ -9,20 +10,24 @@ export function AboutMe () {
       <div className='aboutMe__container'>
         <div className='aboutMe__description'>
           <h2>About Me</h2>
-          <p>Hello! I'm Santiago, a Web Developer interested in <span className='color-red'>Fullstack web applications</span> and software development. </p>
-          <p>I'm currently pursuing a <span className='color-red'>Computer Science degree </span> at the Autonomous University of Barcelona. </p>
-          <p>I love to <span className='color-red'>face new challenges and learn from them</span>. I'm always seeking for new opportunities to improve myself and my skills.</p>
+          <p>
+            I am Santiago, Web Developer currently pursuing a <span className='color-red'>Computer Science degree</span>.
+          </p>
+          <p>
+            Passionate for facing new challenges and learning from them. Constantly seeking
+            opportunities for improvement. <span className='color-red'>I love to build clean, simple and understandable code</span>.
+          </p>
           <div className='aboutMe__icons'>
             <ContactIcons />
           </div>
-          {/* <div className='aboutMe__buttonContainer'>
-            <ExpandButton reff='#projects' />
-          </div> */}
         </div>
         <div className='aboutMe__Stack'>
           <Stack />
         </div>
       </div>
+      {/* <div className='aboutMe__buttonContainer'>
+        <ExpandButton reff='#projects' />
+      </div> */}
     </section>
   )
 }

@@ -1,6 +1,7 @@
 import './project.css'
-import { ProjectCard } from './project-card'
-import { Todo } from './project-cards/todo/todo'
+import { Todo } from './project-cards/todo/todo.jsx'
+import { FakeStore } from './project-cards/fake-store/fake-store.jsx'
+import { ExTrack } from './project-cards/exercise-track/ex-track'
 
 export function Project () {
   return (
@@ -8,8 +9,8 @@ export function Project () {
       <h2 className='project__sectionTitle'>Projects</h2>
       <div className='project__div'>
         <Todo />
-        <ProjectCard />
-        <ProjectCard />
+        <FakeStore />
+        <ExTrack />
       </div>
     </section>
   )

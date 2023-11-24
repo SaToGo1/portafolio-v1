@@ -12,14 +12,14 @@
   font-family: Nunito, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 
-  --color-letter-title: #FFFFFF;
-  --color-letter-normal: #dcdcdc;
-  --color-letter-red: #e5201d;
+  --color-letter-title: #FFF;
+  --color-letter-normal: rgba(255, 255, 255, 0.64);
+  /* --color-letter-red: #e5201d; */
 
-  --main-red-400: #ff6e6c; /* <-- */
-  --main-red-500: #f83e3b;
+  /* --main-red-400: #ff6e6c; <--
+  --main-red-500: #f83e3b; */
   --main-red-600: #e5201d;
-  --main-red-700: #c11614;
+  /* --main-red-700: #c11614; */
 
   --main-green: #1de520;
   --main-blue: #1d20e5;
@@ -67,6 +67,14 @@ body {
 
 .color-red {
   color: var(--main-red-600);
+}
+
+.color-green {
+  color: var(--main-green);
+}
+
+.color-blue {
+  color: var(--main-blue);
 }
 
 /* a11y */

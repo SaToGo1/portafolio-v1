@@ -1,8 +1,8 @@
-.todoContainer {
+.projectCard__Container {
     width: 100%;
 }
 
-.todo {
+.projectCard {
     width: 100%;
     height: 100%;
 
@@ -21,24 +21,38 @@
     max-height: 100vh;
 }
 
-.todo__divText {
-    border-top: 3px solid var(--main-red-600);
-    border-top: 3px solid var(--main-green);
+.projectCard__divText {
     background-color: var(--dark-bg-trans);
 
-    padding: 24px 20px 0px var(--padding-left);
+    padding: 36px 20px 0px var(--padding-left);
     /* flex: 5 1 0%; */
 }
 
-.todo__divText h2 {
+.projectCard__divText h2 {
     margin: 0px;
     margin-bottom: 12px;
+    line-height: 1;
 
     font-size: 3rem;
     font-weight: 800;
     color: var(--color-letter-title);  
 }
 
-.todo__divText p {
-    margin: 0px; 
+.projectCard__divText p {
+    margin: 0px;
+    margin-top: 12px;
+    color: var(--color-letter-normal);
+    font-size: 1rem;
+}
+
+.green-border-top {
+    border-top: 3px solid var(--main-green);
+}
+
+.red-border-top {
+    border-top: 3px solid var(--main-red-600);
+}
+
+.blue-border-top {
+    border-top: 3px solid var(--main-blue);
 }
