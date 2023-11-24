@@ -9,10 +9,6 @@ export function Project () {
         <Todo />
         <ProjectCard />
         <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
       </div>
     </section>
   )

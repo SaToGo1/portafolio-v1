@@ -17,7 +17,7 @@
     z-index: -5;
 
     background: 
-        url('../../assets/images/curiosity-mobile.jpg') right / contain no-repeat,
+        url('../../assets/images/curiosity-mobile.jpg') left top / contain no-repeat,
         linear-gradient(#000, #222) left;
     background-attachment: fixed;
     background-size: cover;
@@ -70,7 +70,7 @@
 @media (min-width: 1025px) {
     .aboutMe__background {
         background: 
-            url('../../assets/images/curiosity-desktop.jpg') left / contain no-repeat,
+            url('../../assets/images/curiosity-desktop.jpg') left top / contain no-repeat,
             linear-gradient(#000, #222) left;
         background-attachment: fixed;
         background-size: cover;
@@ -81,7 +81,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .aboutMe__background {
         background: 
-            url('../../assets/images/curiosity-tablet.jpg') left / contain no-repeat,
+            url('../../assets/images/curiosity-tablet.jpg') left top / contain no-repeat,
             linear-gradient(#000, #222) left;
         background-attachment: fixed;
         background-size: cover;

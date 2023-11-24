@@ -57,10 +57,21 @@ p {
   font-size: 1.5rem;
 }
 
+body {
+  background-color: var(--dark-bg);
+}
+
+.custom-scroll {
+  scroll-behavior: auto; /* or unset, depending on your needs */
+}
+
 .color-red {
   color: var(--main-red-600);
 }
 
-body {
-  background-color: var(--dark-bg);
+/* a11y */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
