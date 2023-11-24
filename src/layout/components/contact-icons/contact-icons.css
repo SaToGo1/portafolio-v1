@@ -1,5 +1,31 @@
 .contactIcons__container {
     display: flex;
 
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.contactIcons__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactIcons__icon {
+    font-size: 50px;
+    margin: 5px;
+    flex: 1;
+}
+
+.contactIcons__div a {
+    text-decoration: none; 
+    color: white; 
+    cursor: pointer;
+}
+
+.contactIcons__img {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(19deg) brightness(103%) contrast(101%);
+    width: 50px;
+    margin: 5px;
+    flex: 1;
 }

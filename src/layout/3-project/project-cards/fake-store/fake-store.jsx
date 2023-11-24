@@ -8,7 +8,7 @@ export function FakeStore () {
       <div className='projectCard'>
         <img src={storeImg} />
         <div className='projectCard__divText blue-border-top'>
-          <h2>fake Store</h2>
+          <h2>Fake Store</h2>
           <ProjectStack techArray={techArray} />
           <p><span className='color-blue'>2023</span></p>
           <p>
