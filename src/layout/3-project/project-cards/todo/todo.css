@@ -18,14 +18,8 @@
 }
 
 .todo img {
-
+    max-height: 100vh;
 }
-/* .todo__divImg {
-    background-color: white;
-    width: 100%;
-    
-    flex: 6 1 0%;
-} */
 
 .todo__divText {
     border-top: 3px solid var(--main-red-600);

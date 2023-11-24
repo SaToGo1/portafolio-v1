@@ -1,5 +1,6 @@
 import './stack.css'
 import { TechCard } from './tech-card'
+import viteIco from '../../../assets/icons/vite.svg'
 
 export function Stack () {
   return (
@@ -15,6 +16,11 @@ export function Stack () {
         <TechCard iconName='devicon-mongodb-plain colored' name='MongoDB' />
         <TechCard iconName='devicon-jest-plain colored' name='Jest' />
         <TechCard iconName='devicon-git-plain colored' name='Git' />
+        <div className='stack__iconContainer'>
+          <img src={viteIco} className='stack__icon' />
+          <span>Vite</span>
+        </div>
+        <TechCard iconName='devicon-webpack-plain colored' name='Webpack' />
       </div>
     </div>
   )

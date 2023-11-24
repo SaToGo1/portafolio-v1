@@ -1,17 +1,19 @@
-.techCard {
+.techProjectCard {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
     /* width: 60px; */
-    margin: 10px;
+    /* margin: 10px; */
 }
 
-.techCard__icon {
-    font-size: 50px;
+.techProjectCard__icon {
+    font-size: 20px;
     margin: 5px;
+    flex: 1;
 }
 
-.techCard span {
+.techProjectCard span {
     font-size: 0.8rem;
+    flex: 1;
 }

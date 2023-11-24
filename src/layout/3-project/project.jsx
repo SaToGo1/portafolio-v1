@@ -1,6 +1,7 @@
 import './project.css'
 import { ProjectCard } from './project-card'
 import { Todo } from './project-cards/todo/todo'
+
 export function Project () {
   return (
     <section className='project' id='projects'>
