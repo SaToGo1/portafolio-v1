@@ -1,7 +1,8 @@
 .contactIcons__container {
     display: flex;
 
-    justify-content: flex-start;
+    background-color: transparent;
+    justify-content: center;
     gap: 20px;
 }
 

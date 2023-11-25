@@ -1,13 +1,47 @@
 .contact {
-    height: 90vh;
+    position: relative;
+    height: 100vh;
+    background: transparent;
+
+    padding-top: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+
+.contact__background {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -5;
+
+    background: 
+        url('../../assets/images/city-mobile.jpg') left top / contain no-repeat,
+        linear-gradient(#000, #222) left;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contact__container {
     padding: 48px 20px 0px 20px;
+    /* height: 100%; */
+    background-color: var(--dark-bg);
 }
 
-.contact h2 {
-    margin: 0;
-    margin-bottom: 24px;
+    .contact h2 {
+        margin: 0;
+        margin-bottom: 24px;
 
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: var(--color-letter-title);
-}
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: var(--color-letter-title);
+    }
+
+    .contact p {
+        margin: 0;
+        margin-bottom: 12px;
+        font-size: 1rem;
+    }
