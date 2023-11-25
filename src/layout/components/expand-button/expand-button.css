@@ -4,7 +4,7 @@
     cursor: pointer;
 
     padding: 8px;
-    border: 2px solid var(--main-red-600);
+    border: 2px solid var(--main-red);
     border-radius: 8px;
 
     transition: background-color .6s;
@@ -13,7 +13,7 @@
 }
 
 .expandbutton:hover {
-    background-color: var(--main-red-600);
+    background-color: var(--main-red);
 }
 
 .expandbutton__a {

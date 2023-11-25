@@ -1,6 +1,6 @@
 @font-face {
   font-family: Nunito;
-  src: url(./assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+  src: url(./assets/fonts/Nunito/Nunito-VariableFont-wght.ttf);
 }
 
 @font-face {
@@ -14,28 +14,13 @@
 
   --color-letter-title: #FFF;
   --color-letter-normal: rgba(255, 255, 255, 0.64);
-  /* --color-letter-red: #e5201d; */
 
-  /* --main-red-400: #ff6e6c; <--
-  --main-red-500: #f83e3b; */
-  --main-red-600: #e5201d;
-  /* --main-red-700: #c11614; */
-
+  --main-red: #e5201d;
   --main-green: #1de520;
-  --main-blue: #1d20e5;
-
-  --main-green2: #0dac1e;
-  --main-blue2: #1f4ae5;
-
-  --hover-gradient: linear-gradient(var(--main-red-500), var(--main-red-700));
-  
+  --main-blue: #1f4ae5;
 
   --dark-bg: #141219;
-  --dark-bg-800: #3f3953;
-  
   --dark-bg-trans: rgba(20, 18, 25, 0.7);
-
-  /* --dark-bg-gradient: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%); */
 
   --padding-left: 20px;
 
@@ -66,7 +51,7 @@ body {
 }
 
 .color-red {
-  color: var(--main-red-600);
+  color: var(--main-red);
 }
 
 .color-green {
@@ -77,9 +62,19 @@ body {
   color: var(--main-blue);
 }
 
+/* -------------------------- */
+/* ------- RESPONSIVE ------- */
 /* a11y */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+}
+
+/* Desktop*/
+@media (min-width: 1025px) {
+  :root {
+    --padding-left: 10%;
+    --padding-right: 10%;
   }
 }

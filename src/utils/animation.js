@@ -31,21 +31,3 @@ function easeOut (t) {
   t--
   return -1 * (t * t * t * t - 1)
 }
-
-// function easeOut (t, b, c, d) {
-//   t /= d
-//   t--
-//   return -c * (t * t * t * t - 1) + b
-// }
-
-// function easeOut2 (t, b, c, d) {
-//   t /= d
-//   return -c * t * (t - 2) + b
-// }
-
-// function easeInOut (t, b, c, d) {
-//   t /= d / 2
-//   if (t < 1) return (c / 2) * t * t + b
-//   t--
-//   return (-c / 2) * (t * (t - 2) - 1) + b
-// }
