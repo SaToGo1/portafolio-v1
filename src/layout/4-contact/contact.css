@@ -45,3 +45,34 @@
         margin-bottom: 12px;
         font-size: 1rem;
     }
+
+/* Desktop*/
+@media (min-width: 1025px) {
+    .contact__background {
+    background: 
+        url('../../assets/images/city-desktop.jpg') left top / contain no-repeat,
+        linear-gradient(#000, #222) left;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+    .contact__container {
+        background: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%);
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contact__background {
+        background: 
+            url('../../assets/images/city-desktop.jpg') left top / contain no-repeat,
+            linear-gradient(#000, #222) left;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .contact__container {
+        padding-top: 24px;
+        background: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%);
+    }
+}
