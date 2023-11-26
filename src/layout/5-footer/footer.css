@@ -17,3 +17,8 @@
 .footer p {
     margin: 0;
 }
+
+.footer a {
+    text-decoration: underline;
+    color: var(--main-red)
+}
