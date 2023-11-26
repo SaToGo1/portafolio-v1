@@ -1,6 +1,7 @@
 import '../project-card.css'
 import exTrackImg from '../../../../assets/images/ex-track-mobile.png'
 import { ProjectStack } from '../../../components/stack-project/project-stack'
+import { Button1 } from '../../../components/button1/button1'
 
 export function ExTrack () {
   return (
@@ -15,6 +16,10 @@ export function ExTrack () {
             <span className='color-red'>API Development</span> to track Exercises. Create users, add exercises by user and date,
             query by user to view all exercises, or query based on date and exercise limit.
           </p>
+          <div className='projectCard__buttonsDiv'>
+            <Button1 name='Live Demo' reff='https://satogo1.github.io/todo-list-version2/' color='red' />
+            <Button1 name='Code' reff='https://github.com/SaToGo1/todo-list-version2' color='red' />
+          </div>
         </div>
       </div>
     </article>

@@ -1,6 +1,7 @@
 import '../project-card.css'
 import todoImg from '../../../../assets/images/todo-mobile.png'
 import { ProjectStack } from '../../../components/stack-project/project-stack'
+import { Button1 } from '../../../components/button1/button1'
 
 export function Todo () {
   return (
@@ -16,6 +17,10 @@ export function Todo () {
             categorizes projects by color, organizes tasks by day, week, and month,
             open details of every task to add specific information for them.
           </p>
+          <div className='projectCard__buttonsDiv'>
+            <Button1 name='Live Demo' reff='https://satogo1.github.io/todo-list-version2/' color='green' />
+            <Button1 name='Code' reff='https://github.com/SaToGo1/todo-list-version2' color='green' />
+          </div>
         </div>
       </div>
     </article>

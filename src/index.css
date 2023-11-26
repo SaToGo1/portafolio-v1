@@ -16,11 +16,18 @@
   --color-letter-normal: rgba(255, 255, 255, 0.64);
   /* --color-letter-normal: #a5a5a5; */
 
-  --main-red: #e5201d;
-  --main-green: #1de520;
-  --main-blue: #1f4ae5;
+  --main-red: #e51e46;
+  --main-green: #1eaf1e;
+  --main-blue: #1e46e5;
 
-  --smooth-red: #f6afad;
+  --smooth-red: #fd6f81;
+  --dark-red: #a11035;
+
+  --smooth-green: #28bf28;
+  --dark-green: #19621a;
+
+  --smooth-blue: #6495f6;
+  --dark-blue: #2132ac;
 
   --dark-bg: #141219;
   --dark-bg-trans: rgba(20, 18, 25, 0.7);

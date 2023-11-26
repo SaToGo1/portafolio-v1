@@ -1,6 +1,7 @@
 import './expand-button.css'
 import expandIcon from '../../../assets/icons/expand.svg'
 import { animateScroll } from '../../../utils/animation'
+import PropTypes from 'prop-types'
 
 export function ExpandButton ({ reff }) {
   const handleClick = () => {
@@ -19,4 +20,8 @@ export function ExpandButton ({ reff }) {
       {/* </a> */}
     </button>
   )
+}
+
+ExpandButton.propTypes = {
+  reff: PropTypes.string
 }

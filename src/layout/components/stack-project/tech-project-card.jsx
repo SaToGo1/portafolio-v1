@@ -1,4 +1,5 @@
 import './tech-project-card.css'
+import PropTypes from 'prop-types'
 
 export function TechCard ({ iconName, name }) {
   return (
@@ -7,4 +8,9 @@ export function TechCard ({ iconName, name }) {
       <span>{name}</span>
     </div>
   )
+}
+
+TechCard.propTypes = {
+  iconName: PropTypes.string,
+  name: PropTypes.string
 }

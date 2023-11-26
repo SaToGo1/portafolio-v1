@@ -41,6 +41,7 @@
 .projectCard__divText p {
     margin: 0px;
     margin-top: 12px;
+    margin-bottom: 12px;
     color: var(--color-letter-normal);
     font-size: 1rem;
 }
@@ -55,4 +56,9 @@
 
 .blue-border-top {
     border-top: 3px solid var(--main-blue);
+}
+
+.projectCard__buttonsDiv {
+    display: flex;
+    gap: 20px;
 }
