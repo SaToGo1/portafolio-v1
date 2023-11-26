@@ -2,9 +2,6 @@
     display: grid;
 
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    /* justify-content: space-between; */
-    /* align-items: space-around; */
-    /* width: 100%; */
     margin: 0;
     margin-left: -10px;
 }
@@ -16,13 +13,6 @@
     font-weight: 800;
     color: var(--color-letter-title);
 }
-
-/* .aboutMe__Stack h2 {
-    margin: 0;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: var(--color-letter-title);
-} */
 
 .stack__iconContainer {
     display: flex;

@@ -1,15 +1,15 @@
 @font-face {
-  font-family: Nunito;
-  src: url(./assets/fonts/Nunito/Nunito-VariableFont-wght.ttf);
+  font-family: 'Nunito';
+  src: url('./assets/fonts/Nunito/Nunito-VariableFont-wght.ttf');
 }
 
 @font-face {
-  font-family: Agbalumo;
-  src: url(./assets/fonts/Agbalumo/Agbalumo-Regular.ttf);
+  font-family: 'Agbalumo';
+  src: url('./assets/fonts/Agbalumo/Agbalumo-Regular.ttf');
 }
 
 :root {
-  font-family: Nunito, Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
   line-height: 1.5;
 
   --color-letter-title: #FFF;
