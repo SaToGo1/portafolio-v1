@@ -1,19 +1,19 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import './button1.css'
 import PropTypes from 'prop-types'
 
-let colorClass = 'button1__a-red'
-export function Button1 ({ name, reff, color = 'red' }) {
+export function Button1 ({ name, reff, colorBtn = 'red' }) {
+  const [colorClass, setColorClass] = useState('')
   useEffect(() => {
-    if (color === 'green') {
-      colorClass = 'button1__a-green'
-    } else if (color === 'blue') {
-      colorClass = 'button1__a-blue'
+    if (colorBtn === 'green') {
+      setColorClass('button1__a-green')
+    } else if (colorBtn === 'blue') {
+      setColorClass('button1__a-blue')
     } else {
-      colorClass = 'button1__a-red'
+      setColorClass('button1__a-red')
     }
   // eslint-disable-next-line
-  }, [])
+  }, [colorBtn])
 
   return (
     <a className={`button1__a ${colorClass}`} href={reff}>{name}</a>
@@ -23,5 +23,5 @@ export function Button1 ({ name, reff, color = 'red' }) {
 Button1.propTypes = {
   name: PropTypes.string,
   reff: PropTypes.string,
-  color: PropTypes.oneOf(['red', 'blue', 'green'])
+  colorBtn: PropTypes.oneOf(['red', 'blue', 'green'])
 }

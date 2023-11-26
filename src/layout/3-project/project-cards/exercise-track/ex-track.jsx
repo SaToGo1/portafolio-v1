@@ -20,8 +20,8 @@ export function ExTrack () {
             query by user to view all exercises, or query based on date and exercise limit.
           </p>
           <div className='projectCard__buttonsDiv projectCard__marginTop'>
-            <Button1 name='Live Demo' reff='https://project-exercisetracker.satogo.repl.co/' color='red' />
-            <Button1 name='Code' reff='https://github.com/SaToGo1/project-exercisetracker' color='red' />
+            <Button1 name='Live Demo' reff='https://project-exercisetracker.satogo.repl.co/' colorBtn='red' />
+            <Button1 name='Code' reff='https://github.com/SaToGo1/project-exercisetracker' colorBtn='red' />
           </div>
         </div>
       </div>

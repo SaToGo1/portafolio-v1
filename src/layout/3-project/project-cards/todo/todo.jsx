@@ -21,8 +21,8 @@ export function Todo () {
             open details of every task to add specific information for them.
           </p>
           <div className='projectCard__buttonsDiv projectCard__marginTop'>
-            <Button1 name='Live Demo' reff='https://satogo1.github.io/todo-list-version2/' color='green' />
-            <Button1 name='Code' reff='https://github.com/SaToGo1/todo-list-version2' color='green' />
+            <Button1 name='Live Demo' reff='https://satogo1.github.io/todo-list-version2/' colorBtn='green' />
+            <Button1 name='Code' reff='https://github.com/SaToGo1/todo-list-version2' colorBtn='green' />
           </div>
         </div>
       </div>

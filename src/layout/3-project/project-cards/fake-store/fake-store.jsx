@@ -20,8 +20,8 @@ export function FakeStore () {
             category and price, add and remove them from the cart, modify quantities, and purchase.
           </p>
           <div className='projectCard__buttonsDiv projectCard__marginTop'>
-            <Button1 name='Live Demo' reff='https://satogo1.github.io/shopping-cart/' color='blue' />
-            <Button1 name='Code' reff='https://github.com/SaToGo1/shopping-cart' color='blue' />
+            <Button1 name='Live Demo' reff='https://satogo1.github.io/shopping-cart/' colorBtn='blue' />
+            <Button1 name='Code' reff='https://github.com/SaToGo1/shopping-cart' colorBtn='blue' />
           </div>
         </div>
       </div>
