@@ -12,7 +12,7 @@ export function Stack () {
         <TechCard iconName='devicon-javascript-plain colored' name='Javascript' />
         <TechCard iconName='devicon-react-original colored' name='React' />
         <TechCard iconName='devicon-nodejs-plain colored' name='Node.js' />
-        <TechCard iconName='devicon-express-original colored' name='Express' />
+        <TechCard iconName='devicon-express-original' name='Express' />
         <TechCard iconName='devicon-mongodb-plain colored' name='MongoDB' />
         <TechCard iconName='devicon-jest-plain colored' name='Jest' />
         <TechCard iconName='devicon-git-plain colored' name='Git' />

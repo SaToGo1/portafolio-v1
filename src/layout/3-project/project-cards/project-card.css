@@ -38,10 +38,10 @@
     color: var(--color-letter-title);  
 }
 
-.projectCard__divText p {
+.projectCard__p {
     margin: 0px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    /* margin-top: 12px; */
+    /* margin-bottom: 12px; */
     color: var(--color-letter-normal);
     font-size: 1rem;
 }
@@ -61,4 +61,12 @@
 .projectCard__buttonsDiv {
     display: flex;
     gap: 20px;
+}
+
+.projectCard__marginTop {
+    margin-top: 12px;
+}
+
+.projectCard__marginBot {
+    margin-bottom: 12px;
 }

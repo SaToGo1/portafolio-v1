@@ -11,14 +11,17 @@ export function FakeStore () {
         <div className='projectCard__divText blue-border-top'>
           <h2>Fake Store</h2>
           <ProjectStack techArray={techArray} />
-          <p><span className='color-blue'>2023</span></p>
-          <p>
-            Store web application with <span className='color-blue'>responsive design</span>. Search products based on
+          <p className='projectCard__p projectCard__marginTop'><span className='color-blue'>2023</span></p>
+          <p className='projectCard__p projectCard__marginTop'>
+            Store web application with <span className='color-blue'>responsive design</span>.
+          </p>
+          <p className='projectCard__p'>
+            Search products based on
             category and price, add and remove them from the cart, modify quantities, and purchase.
           </p>
-          <div className='projectCard__buttonsDiv'>
-            <Button1 name='Live Demo' reff='https://satogo1.github.io/todo-list-version2/' color='blue' />
-            <Button1 name='Code' reff='https://github.com/SaToGo1/todo-list-version2' color='blue' />
+          <div className='projectCard__buttonsDiv projectCard__marginTop'>
+            <Button1 name='Live Demo' reff='https://satogo1.github.io/shopping-cart/' color='blue' />
+            <Button1 name='Code' reff='https://github.com/SaToGo1/shopping-cart' color='blue' />
           </div>
         </div>
       </div>

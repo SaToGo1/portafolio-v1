@@ -11,13 +11,16 @@ export function Todo () {
         <div className='projectCard__divText green-border-top'>
           <h2>To-Do List</h2>
           <ProjectStack techArray={techArray} />
-          <p><span className='color-green'>2023</span></p>
-          <p>
-            Web application for task management <span className='color-green'>built with MVC architecture</span>. Creates projects,
+          <p className='projectCard__marginTop projectCard__p'><span className='color-green'>2023</span></p>
+          <p className='projectCard__marginTop projectCard__p'>
+            Web application for task management <span className='color-green'>built with MVC architecture</span>.
+          </p>
+          <p className='projectCard__p'>
+            Creates projects,
             categorizes projects by color, organizes tasks by day, week, and month,
             open details of every task to add specific information for them.
           </p>
-          <div className='projectCard__buttonsDiv'>
+          <div className='projectCard__buttonsDiv projectCard__marginTop'>
             <Button1 name='Live Demo' reff='https://satogo1.github.io/todo-list-version2/' color='green' />
             <Button1 name='Code' reff='https://github.com/SaToGo1/todo-list-version2' color='green' />
           </div>
