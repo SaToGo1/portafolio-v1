@@ -25,9 +25,9 @@ export function AboutMe () {
           <Stack />
         </div>
       </div>
-      {/* <div className='aboutMe__buttonContainer'>
+      <div className='aboutMe__buttonContainer'>
         <ExpandButton reff='#projects' />
-      </div> */}
+      </div>
     </section>
   )
 }

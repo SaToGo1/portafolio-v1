@@ -5,7 +5,8 @@
 
     padding-top: 30vh;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
     margin-bottom: 48px;
 }
 
@@ -63,9 +64,10 @@
     padding: 0px var(--padding-right) 40px var(--padding-left);
     background: var(--dark-bg);
 }
-/* .aboutMe__buttonContainer {
-    align-self: center;
-} */
+
+.aboutMe__buttonContainer {
+    display: none;
+}
 
 /* Desktop*/
 @media (min-width: 1025px) {
@@ -104,6 +106,19 @@
         padding: 0;
 
         background: none;
+    }
+
+    .aboutMe__buttonContainer {
+        width: 100%;
+        display: block;
+        background: var(--dark-bg);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-bottom: 48px;
+        padding-top: 24px;
     }
 }
 
