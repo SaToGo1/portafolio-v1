@@ -14,15 +14,19 @@
 
   --color-letter-title: #FFF;
   --color-letter-normal: rgba(255, 255, 255, 0.64);
+  /* --color-letter-normal: #a5a5a5; */
 
   --main-red: #e5201d;
   --main-green: #1de520;
   --main-blue: #1f4ae5;
 
+  --smooth-red: #f6afad;
+
   --dark-bg: #141219;
   --dark-bg-trans: rgba(20, 18, 25, 0.7);
 
   --padding-left: 20px;
+  --padding-right: 20px;
 
   color: var(--color-letter-normal)
 }
@@ -76,5 +80,13 @@ body {
   :root {
     --padding-left: 10%;
     --padding-right: 10%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    --padding-left: 40px;
+    --padding-right: 40px;
   }
 }

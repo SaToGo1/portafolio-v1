@@ -67,6 +67,26 @@ header {
 } */
 
 /* -------------------------- */
+/* ------- ANIMATIONS ------- */
+.header-animation {
+    opacity: 0;
+    animation: fadein forwards 2s ease-out 1000ms;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* -------------------------- */
 /* ------- RESPONSIVE ------- */
 
 /* Desktop*/
@@ -82,20 +102,9 @@ header {
     .navList a:hover {
         color: var(--main-red);
     }
-}
 
-/* -------------------------- */
-/* ------- ANIMATIONS ------- */
-.header-animation {
-    opacity: 0;
-    animation: fadein forwards 2s ease-out 600ms;
-}
-
-@keyframes fadein {
-    0% {
+    .header-animation {
         opacity: 0;
+        animation: fadein forwards 2s ease-out 2100ms;
     }
-    100% {
-        opacity: 1;
-    }
-  }
+}
