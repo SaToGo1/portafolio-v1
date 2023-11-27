@@ -4,16 +4,11 @@
     cursor: pointer;
 
     padding: 8px;
-    border: 2px solid var(--main-red);
     border-radius: 8px;
 
     transition: background-color .6s;
 
     text-decoration: none;
-}
-
-.expandbutton:hover {
-    background-color: var(--main-red);
 }
 
 .expandbutton__a {
@@ -23,10 +18,55 @@
 .expandbutton__Icon {
     width: 100px;
     height: 50px;
-    filter: invert(19%) sepia(93%) saturate(6828%) hue-rotate(357deg) brightness(96%) contrast(86%);
+}
+
+.expandbutton-red {
+    border: 2px solid var(--main-red);
+}
+
+    .expandbutton-red:hover {
+        background-color: var(--main-red);
+    }
+
+.expandbutton-green {
+    border: 2px solid var(--main-green);
+}
+
+    .expandbutton-green:hover {
+        background-color: var(--main-green);
+    }
+
+.expandbutton-blue {
+    border: 2px solid var(--main-blue);
+}
+
+    .expandbutton-blue:hover {
+        background-color: var(--main-blue);
+    }
+
+.expandbutton__Icon-red {
+    filter: invert(19%) sepia(93%) saturate(6828%) hue-rotate(357deg) brightness(96%) contrast(86%); /* RED */
     transition: .6s;
 }
 
-    .expandbutton:hover .expandbutton__Icon{
-        filter: invert(0%) sepia(100%) saturate(21%) hue-rotate(303deg) brightness(102%) contrast(104%);
+    .expandbutton:hover .expandbutton__Icon-red{
+        filter: invert(0%) sepia(100%) saturate(21%) hue-rotate(303deg) brightness(102%) contrast(104%); /* BLACK */
+    }
+
+.expandbutton__Icon-green {
+    filter: invert(42%) sepia(81%) saturate(849%) hue-rotate(81deg) brightness(102%) contrast(88%); /* GREEN */
+    transition: .6s;
+}
+
+    .expandbutton:hover .expandbutton__Icon-green{
+        filter: invert(0%) sepia(100%) saturate(21%) hue-rotate(303deg) brightness(102%) contrast(104%); /* BLACK */
+    }
+
+.expandbutton__Icon-blue {
+    filter: invert(24%) sepia(98%) saturate(5799%) hue-rotate(232deg) brightness(92%) contrast(95%); /* BLUE */
+    transition: .6s;
+}
+
+    .expandbutton:hover .expandbutton__Icon-blue{
+        filter: invert(0%) sepia(100%) saturate(21%) hue-rotate(303deg) brightness(102%) contrast(104%); /* BLACK */
     }

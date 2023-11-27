@@ -11,6 +11,7 @@ export function Project () {
         <Todo />
         <FakeStore />
         <ExTrack />
+        {/* PENDING MORE PROJECT */}
       </div>
     </section>
   )

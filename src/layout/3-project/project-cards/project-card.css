@@ -70,3 +70,10 @@
 .projectCard__marginBot {
     margin-bottom: 12px;
 }
+
+.projectCard__SVG {
+    fill: currentColor;
+    display: inline;
+    width: 20px;
+    height: 20px;
+}

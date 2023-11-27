@@ -1,7 +1,7 @@
 import '../project-card.css'
 import todoImg from '../../../../assets/images/todo-mobile.png'
 import { ProjectStack } from '../../../components/stack-project/project-stack'
-import { Button1 } from '../../../components/button1/button1'
+import { BtnProj } from '../../../components/button-project/button-project'
 
 export function Todo () {
   return (
@@ -21,8 +21,16 @@ export function Todo () {
             open details of every task to add specific information for them.
           </p>
           <div className='projectCard__buttonsDiv projectCard__marginTop'>
-            <Button1 name='Live Demo' reff='https://satogo1.github.io/todo-list-version2/' colorBtn='green' />
-            <Button1 name='Code' reff='https://github.com/SaToGo1/todo-list-version2' colorBtn='green' />
+            <BtnProj name='Live' reff='https://satogo1.github.io/todo-list-version2/' colorBtn='green'>
+              <svg xmlns='http://www.w3.org/2000/svg' className='projectCard__SVG' viewBox='0 0 448 512'>
+                <path d='M288 32c-17.7 0-32 14.3-32 32s14.3 32 32 32h50.7L169.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L384 141.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V64c0-17.7-14.3-32-32-32H288zM80 64C35.8 64 0 99.8 0 144V400c0 44.2 35.8 80 80 80H336c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v80c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16h80c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z' />
+              </svg>
+            </BtnProj>
+            <BtnProj name='Code' reff='https://github.com/SaToGo1/todo-list-version2' colorBtn='green'>
+              <svg xmlns='http://www.w3.org/2000/svg' className='projectCard__SVG' viewBox='0 0 640 512'>
+                <path d='M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z' />
+              </svg>
+            </BtnProj>
           </div>
         </div>
       </div>

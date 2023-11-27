@@ -19,7 +19,7 @@ export function Home () {
         <h2 className='home__h2-animation'>Full Stack Web Developer</h2>
       </div>
       <div className='home__buttonContainer home__button-animation'>
-        <ExpandButton reff='#aboutMe' />
+        <ExpandButton reff='#aboutMe' duration={1000} />
       </div>
     </section>
   )

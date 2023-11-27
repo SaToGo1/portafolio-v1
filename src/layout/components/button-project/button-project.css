@@ -1,34 +1,44 @@
-.button1__a {
+.BtnProj__a {
     text-decoration: none;
     color: white;
 
     padding: 5px 10px 5px 10px;
     border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
-.button1__a-red {
+.BtnProj__a-red {
     background: linear-gradient(var(--smooth-red), var(--dark-red));
     border: 1px solid var(--main-red);
 }
 
-.button1__a-red:hover {
-    background: var(--dark-red);
-}
+    .BtnProj__a-red:hover {
+        background: var(--dark-red);
+    }
 
-.button1__a-green {
+.BtnProj__a-green {
     background: linear-gradient(var(--smooth-green), var(--dark-green));
     border: 1px solid var(--main-green);
 }
 
-.button1__a-green:hover {
-    background: var(--dark-green);
-}
+    .BtnProj__a-green:hover {
+        background: var(--dark-green);
+    }
 
-.button1__a-blue {
+.BtnProj__a-blue {
     background: linear-gradient(var(--smooth-blue), var(--dark-blue));
     border: 1px solid var(--main-blue);
 }
 
-.button1__a-blue:hover {
-    background: var(--dark-blue);
+    .BtnProj__a-blue:hover {
+        background: var(--dark-blue);
+    }
+
+.BtnProj__p {
+    margin: 0;
+    font-size: 1rem;
 }

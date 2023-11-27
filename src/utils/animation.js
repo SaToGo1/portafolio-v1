@@ -9,7 +9,7 @@ export function animateScroll (targetElement, duration = 2000) {
   const scroll = (currentTime) => {
     const elapsedTime = currentTime - startingTime
     const progress = Math.min(elapsedTime / duration, 1)
-    const easedProgress = easeOut(progress)
+    const easedProgress = chillEaseOut(progress)
 
     // Calculate the current position based on the scroll progress
     const currentPosition = startingY + (targetOffset - startingY) * easedProgress
@@ -27,7 +27,20 @@ export function animateScroll (targetElement, duration = 2000) {
   window.requestAnimationFrame(scroll)
 }
 
-function easeOut (t) {
+// function easeOut (t) {
+//   t--
+//   return -1 * (t * t * t * t - 1)
+// }
+
+function chillEaseOut (t) {
   t--
-  return -1 * (t * t * t * t - 1)
+  return t * t * t + 1
 }
+
+// function easeIn (t) {
+//   return t * t * t * t
+// }
+
+// function linear (t) {
+//   return t
+// }
