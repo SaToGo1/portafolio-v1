@@ -39,7 +39,7 @@ export function Todo () {
           </div>
         </div>
       </div>
-      <div className='projectCard__expandButton'>
+      <div className='projectCard__expandButton todo__expandButton'>
         <ExpandButton reff='#proj-store' colorBtn='green' />
       </div>
     </article>

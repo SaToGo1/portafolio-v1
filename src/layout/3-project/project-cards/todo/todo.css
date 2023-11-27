@@ -14,4 +14,9 @@
     .todo__divText {
         padding: calc(96px + 44px) 48px; /* margin + header */
     }
+
+    .todo__expandButton {
+        border-radius: 8px;
+        box-shadow: 0px 0px 4px #000000AA;
+    }
 }
