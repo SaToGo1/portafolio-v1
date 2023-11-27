@@ -71,6 +71,10 @@
 
 /* Desktop*/
 @media (min-width: 1025px) {
+    .aboutMe {
+        margin-bottom: 0px;
+    }
+
     .aboutMe__background {
         background: 
             url('../../assets/images/curiosity-desktop.jpg') left top / contain no-repeat,
@@ -100,6 +104,11 @@
         flex-direction: column;
     }
 
+        .aboutMe__description h2 {
+            margin-top: 20px;
+            line-height: 1;
+        }
+
     .aboutMe__Stack {
         grid-area: stack;
         border-top: none;
@@ -107,6 +116,13 @@
 
         background: none;
     }
+
+        .aboutMe__Stack h3 {
+            margin: 0;
+            margin-top: calc(20px + 56px - 32px - 12px); /* marginTOP + height AboutME Title - height Stack Title - desviation */
+            margin-bottom: 12px;
+            line-height: 1;
+        }
 
     .aboutMe__buttonContainer {
         width: 100%;

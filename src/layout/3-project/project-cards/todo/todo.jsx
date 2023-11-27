@@ -1,14 +1,19 @@
+// The order of import of the CSS is important for the code
+// Don't change it 1st project-card.css 2nd todo.css
 import '../project-card.css'
+import './todo.css'
+
 import todoImg from '../../../../assets/images/todo-mobile.png'
 import { ProjectStack } from '../../../components/stack-project/project-stack'
 import { BtnProj } from '../../../components/button-project/button-project'
+import { ExpandButton } from '../../../components/expand-button/expand-button'
 
 export function Todo () {
   return (
-    <article className='projectCard__Container'>
-      <div className='projectCard'>
-        <img src={todoImg} />
-        <div className='projectCard__divText green-border-top'>
+    <article className='projectCard__Container' id='proj-todo'>
+      <div className='projectCard todo__projCard'>
+        <img className='projectCard__img' src={todoImg} />
+        <div className='projectCard__divText green-border-top todo__divText'>
           <h2>To-Do List</h2>
           <ProjectStack techArray={techArray} />
           <p className='projectCard__marginTop projectCard__p'><span className='color-green'>2023</span></p>
@@ -18,7 +23,7 @@ export function Todo () {
           <p className='projectCard__p'>
             Creates projects,
             categorizes projects by color, organizes tasks by day, week, and month,
-            open details of every task to add specific information for them.
+            and open details of every task to add specific information for them.
           </p>
           <div className='projectCard__buttonsDiv projectCard__marginTop'>
             <BtnProj name='Live' reff='https://satogo1.github.io/todo-list-version2/' colorBtn='green'>
@@ -33,6 +38,9 @@ export function Todo () {
             </BtnProj>
           </div>
         </div>
+      </div>
+      <div className='projectCard__expandButton'>
+        <ExpandButton reff='#proj-store' colorBtn='green' />
       </div>
     </article>
   )

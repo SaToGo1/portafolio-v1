@@ -5,7 +5,7 @@ import viteIco from '../../../assets/icons/vite.svg'
 export function Stack () {
   return (
     <div className='stackContainer'>
-      <h3>Stack</h3>
+      <h3 className='stackContainer__h3'>Stack</h3>
       <div className='stack'>
         <TechCard iconName='devicon-html5-plain colored' name='HTML5' />
         <TechCard iconName='devicon-css3-plain-wordmark colored' name='CSS3' />

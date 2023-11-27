@@ -1,4 +1,5 @@
 .projectCard__Container {
+    position: relative;
     width: 100%;
 }
 
@@ -17,9 +18,9 @@
     /* justify-content: flex-end; */
 }
 
-.todo img {
+/* .todo img {
     max-height: 100vh;
-}
+} */
 
 .projectCard__divText {
     background-color: var(--dark-bg-trans);
@@ -76,4 +77,60 @@
     display: inline;
     width: 20px;
     height: 20px;
+}
+
+.projectCard__expandButton {
+    display: none;
+}
+
+/* Desktop*/
+@media (min-width: 1025px) {
+    .projectCard {
+        position: relative;
+
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+
+    }
+
+    .projectCard__img {
+        display: none;
+    }
+
+    .projectCard__divText { 
+        position: absolute;
+        left: 66%;
+        right: 0px;
+        height: 100%;
+    }
+
+    .green-border-top {
+        border-top: none;
+        border-left: 3px solid var(--main-green);
+    }
+    
+    .red-border-top {
+        border-top: none;
+        border-left: 3px solid var(--main-red);
+    }
+    
+    .blue-border-top {
+        border-top: none;
+        border-left: 3px solid var(--main-blue);
+    }
+
+    .projectCard__expandButton {
+        width: 100%;
+        /* background: var(--dark-bg); */
+
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-bottom: 48px;
+        padding-top: 24px;
+    }
 }

@@ -1,0 +1,17 @@
+/* Desktop*/
+@media (min-width: 1025px) {
+    .todo__projCard {
+        background: url('../../../../assets/images/todo.png') left top / contain no-repeat,
+            linear-gradient(#000, #222) left;
+        background-attachment: fixed;
+        background-size: cover;
+
+        background-position: left 43px;
+
+        box-shadow: inset 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    .todo__divText {
+        padding: calc(96px + 44px) 48px; /* margin + header */
+    }
+}

@@ -5,7 +5,7 @@ import { BtnProj } from '../../../components/button-project/button-project.jsx'
 
 export function FakeStore () {
   return (
-    <article className='projectCard__Container'>
+    <article className='projectCard__Container' id='proj-store'>
       <div className='projectCard'>
         <img src={storeImg} />
         <div className='projectCard__divText blue-border-top'>

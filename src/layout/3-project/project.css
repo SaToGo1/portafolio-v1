@@ -18,3 +18,18 @@
     grid-template-columns: 100%;
     gap: 80px;
 }
+
+/* Desktop*/
+@media (min-width: 1025px) {
+    .project__div {
+        display: grid;
+        grid-auto-rows: 100vh;
+        grid-template-columns: 100%;
+        gap: 0px;
+    }
+
+    .project {
+        background-color: transparent;
+        padding: 48px 0px 0px 0px;
+    }
+}
