@@ -1,6 +1,6 @@
 .contact {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 13vh); /* 100 - fotter height*/
     background: transparent;
 
     padding-top: 30vh;
@@ -29,6 +29,7 @@
     padding: 48px 20px 0px 20px;
     /* height: 100%; */
     background-color: var(--dark-bg);
+    background: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%);
 }
 
     .contact h2 {

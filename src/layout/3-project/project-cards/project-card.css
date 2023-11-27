@@ -87,9 +87,6 @@
 @media (min-width: 1025px) {
     .projectCard {
         position: relative;
-
-        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
-
     }
 
     .projectCard__img {
@@ -119,18 +116,12 @@
     }
 
     .projectCard__expandButton {
-        width: 100%;
-        /* background: var(--dark-bg); */
-
         position: absolute;
-        bottom: 20px;
-        left: 50px;
+        bottom: 48px;
+        left: calc(50% - 60px);
 
         display: flex;
         align-items: center;
         justify-content: center;
-
-        padding-bottom: 48px;
-        padding-top: 24px;
     }
 }
