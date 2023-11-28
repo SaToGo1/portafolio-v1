@@ -42,7 +42,7 @@
     flex-direction: column;
 }
 
-    .aboutMe__description h2 {
+    .aboutMe__description-h2 {
         margin: 0;
         margin-bottom: 24px;
 
@@ -51,7 +51,7 @@
         color: var(--color-letter-title);
     }
 
-    .aboutMe__description p {
+    .aboutMe__description-p {
         margin: 0;
         font-size: 1rem;
     }
@@ -104,7 +104,7 @@
         flex-direction: column;
     }
 
-        .aboutMe__description h2 {
+        .aboutMe__description-h2 {
             margin-top: 20px;
             line-height: 1;
         }
@@ -117,7 +117,9 @@
         background: none;
     }
 
-        .aboutMe__Stack h3 {
+        /* This is kinda Wrong if the stack title ever gives problem on dektiop 
+           Look for this. */
+        .aboutMe__Stack h3 { 
             margin: 0;
             margin-top: calc(20px + 56px - 32px - 12px); /* marginTOP + height AboutME Title - height Stack Title - desviation */
             margin-bottom: 12px;

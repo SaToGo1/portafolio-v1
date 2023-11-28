@@ -14,7 +14,7 @@ export function Todo () {
       <div className='projectCard todo__projCard'>
         <img className='projectCard__img' src={todoImg} />
         <div className='projectCard__divText green-border-top todo__divText'>
-          <h2>To-Do List</h2>
+          <h2 className='projectCard__divText-h2'>To-Do List</h2>
           <ProjectStack techArray={techArray} />
           <p className='projectCard__marginTop projectCard__p'><span className='color-green'>2023</span></p>
           <p className='projectCard__marginTop projectCard__p'>

@@ -19,7 +19,7 @@
     padding: 0px 0px 5px 0px;
 }
 
-    .home__titleDiv h1 {
+    .home__titleDiv-h1 {
         margin: 0px;
         font-size: 4rem;
         line-height: 0.8;
@@ -38,7 +38,7 @@
         1px 25px 50px rgba(16, 16, 16, 0.2);
     }
 
-    .home__titleDiv h2 {
+    .home__titleDiv-h2 {
         padding-top: 20px;
         margin-top: 0px;
         font-size: 1.6rem;
@@ -136,7 +136,7 @@
 /* ------- RESPONSIVE ------- */
 /* Desktop */
 @media (min-width: 1025px) {
-    .home__titleDiv h1 {
+    .home__titleDiv-h1 {
         font-size: 6rem;
         line-height: 1;
         white-space: nowrap;
@@ -153,7 +153,7 @@
             1px 25px 50px rgba(16, 16, 16, 0.2);
     }
 
-    .home__titleDiv h2 {
+    .home__titleDiv-h2 {
         font-size: 3rem;
         line-height: 1;
     }

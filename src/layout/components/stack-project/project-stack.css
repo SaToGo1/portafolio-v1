@@ -5,10 +5,6 @@
     white-space: nowrap;
 }
 
-.stackProjectContainer h2 {
-    font-size: 1rem;
-}
-
 .stackProject__icon {
     width: 20px;
 }

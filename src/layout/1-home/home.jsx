@@ -15,8 +15,8 @@ export function Home () {
   return (
     <section className='home' id='home'>
       <div className='home__titleDiv'>
-        <h1 className='home__h1-animation'>Santiago Toledano</h1>
-        <h2 className='home__h2-animation'>Full Stack Web Developer</h2>
+        <h1 className='home__titleDiv-h1 home__h1-animation'>Santiago Toledano</h1>
+        <h2 className='home__titleDiv-h2 home__h2-animation'>Full Stack Web Developer</h2>
       </div>
       <div className='home__buttonContainer home__button-animation'>
         <ExpandButton reff='#aboutMe' duration={1000} />

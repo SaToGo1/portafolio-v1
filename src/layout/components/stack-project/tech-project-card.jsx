@@ -5,7 +5,7 @@ export function TechCard ({ iconName, name }) {
   return (
     <div className='techProjectCard'>
       <i className={`${iconName} techProjectCard__icon`} />
-      <span>{name}</span>
+      <span className='techProjectCard__span'>{name}</span>
     </div>
   )
 }

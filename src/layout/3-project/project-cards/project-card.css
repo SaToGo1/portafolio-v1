@@ -17,7 +17,7 @@
     padding: 36px 20px 0px var(--padding-left);
 }
 
-.projectCard__divText h2 {
+.projectCard__divText-h2 {
     margin: 0px;
     margin-bottom: 12px;
     line-height: 1;

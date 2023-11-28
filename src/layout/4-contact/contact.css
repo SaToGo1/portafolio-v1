@@ -34,7 +34,7 @@
     background: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%);
 }
 
-    .contact h2 {
+    .contact-h2 {
         margin: 0;
         margin-bottom: 24px;
 
@@ -43,7 +43,7 @@
         color: var(--color-letter-title);
     }
 
-    .contact p {
+    .contact-p {
         margin: 0;
         margin-bottom: 12px;
         font-size: 1rem;

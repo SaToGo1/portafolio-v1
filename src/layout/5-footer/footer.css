@@ -18,7 +18,7 @@
     margin: 0;
 }
 
-.footer a {
+.footer-a {
     text-decoration: underline;
     color: var(--main-red)
 }

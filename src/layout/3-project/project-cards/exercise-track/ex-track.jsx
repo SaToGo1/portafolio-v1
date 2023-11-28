@@ -13,7 +13,7 @@ export function ExTrack () {
       <div className='projectCard exTrack__projCard'>
         <img className='projectCard__img' src={exTrackImg} />
         <div className='projectCard__divText red-border-top exTrack__divText'>
-          <h2>Exercise Tracker</h2>
+          <h2 className='projectCard__divText-h2'>Exercise Tracker</h2>
           <ProjectStack techArray={techArray} />
           <p className='projectCard__p'><span className='color-red projectCard__marginTop'>2023</span></p>
           <p className='projectCard__p projectCard__marginTop'>

@@ -32,11 +32,11 @@ header {
     
 }
 
-.navList li {
+.navList__li {
     list-style: none;
 }
 
-.navList a {
+.navList__a {
     position: relative;
     color: var(--color-letter-normal);
     text-decoration: none;
@@ -96,10 +96,10 @@ header {
         padding-right: var(--padding-right);
     }
 
-    .navList li:hover {
+    .navList__li:hover {
         transform: scale(1.3);
     }
-    .navList a:hover {
+    .navList__a:hover {
         color: var(--main-red);
     }
 
