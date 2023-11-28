@@ -26,7 +26,7 @@ export function AboutMe () {
         </div>
       </div>
       <div className='aboutMe__buttonContainer'>
-        <ExpandButton reff='#proj-todo' />
+        <ExpandButton reff='#proj-todo' duration={1000} />
       </div>
     </section>
   )

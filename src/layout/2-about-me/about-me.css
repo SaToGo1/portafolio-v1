@@ -85,10 +85,10 @@
 
     .aboutMe__container {
         background: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%);
-        border-top: 3px solid var(--main-red);
+        border-top: 5px solid var(--main-red);
 
         display: grid;
-        grid-template-columns: 10% 1fr 5% 1fr 10%;
+        grid-template-columns: var(--padding-left) 1fr 5% 1fr var(--padding-right);
         grid-template-areas: 
             "margin description . stack margin2";
     }

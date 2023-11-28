@@ -1,14 +1,18 @@
+// respect css order
 import '../project-card.css'
+import './fake-store.css'
+
 import storeImg from '../../../../assets/images/store.jpg'
 import { ProjectStack } from '../../../components/stack-project/project-stack'
 import { BtnProj } from '../../../components/button-project/button-project.jsx'
+import { ExpandButton } from '../../../components/expand-button/expand-button'
 
 export function FakeStore () {
   return (
     <article className='projectCard__Container' id='proj-store'>
-      <div className='projectCard'>
-        <img src={storeImg} />
-        <div className='projectCard__divText blue-border-top'>
+      <div className='projectCard store__projCard'>
+        <img className='projectCard__img' src={storeImg} />
+        <div className='projectCard__divText blue-border-top store__divText store__blue-border'>
           <h2>Fake Store</h2>
           <ProjectStack techArray={techArray} />
           <p className='projectCard__p projectCard__marginTop'><span className='color-blue'>2023</span></p>
@@ -32,6 +36,9 @@ export function FakeStore () {
             </BtnProj>
           </div>
         </div>
+      </div>
+      <div className='projectCard__expandButton store__expandButton'>
+        <ExpandButton reff='#proj-exTrack' colorBtn='blue' duration={1000} />
       </div>
     </article>
   )

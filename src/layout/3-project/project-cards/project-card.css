@@ -7,26 +7,14 @@
     width: 100%;
     height: 100%;
 
-    /* background: 
-        url('../../../../assets/images/todo-mobile.jpg') right / contain no-repeat,
-        linear-gradient(#000, #222) left;
-    background-attachment: fixed;
-    background-size: cover; */
-
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
 }
-
-/* .todo img {
-    max-height: 100vh;
-} */
 
 .projectCard__divText {
     background-color: var(--dark-bg-trans);
 
     padding: 36px 20px 0px var(--padding-left);
-    /* flex: 5 1 0%; */
 }
 
 .projectCard__divText h2 {
@@ -41,8 +29,6 @@
 
 .projectCard__p {
     margin: 0px;
-    /* margin-top: 12px; */
-    /* margin-bottom: 12px; */
     color: var(--color-letter-normal);
     font-size: 1rem;
 }
@@ -96,23 +82,26 @@
     .projectCard__divText { 
         position: absolute;
         left: 66%;
-        right: 0px;
+        right: 0;
         height: 100%;
+
+        background-color: var(--darker-bg-trans);
+        backdrop-filter: blur(3px);
     }
 
     .green-border-top {
         border-top: none;
-        border-left: 3px solid var(--main-green);
+        border-left: 5px solid var(--main-green);
     }
     
     .red-border-top {
         border-top: none;
-        border-left: 3px solid var(--main-red);
+        border-left: 5px solid var(--main-red);
     }
     
     .blue-border-top {
         border-top: none;
-        border-left: 3px solid var(--main-blue);
+        border-left: 5px solid var(--main-blue);
     }
 
     .projectCard__expandButton {
@@ -123,5 +112,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        border-radius: 8px;
+        box-shadow: 0px 0px 4px #000000AA;
     }
 }

@@ -1,14 +1,18 @@
+// respect css order
 import '../project-card.css'
+import './ex-track.css'
+
 import exTrackImg from '../../../../assets/images/ex-track-mobile.png'
 import { ProjectStack } from '../../../components/stack-project/project-stack'
 import { BtnProj } from '../../../components/button-project/button-project.jsx'
+import { ExpandButton } from '../../../components/expand-button/expand-button'
 
 export function ExTrack () {
   return (
-    <article className='projectCard__Container'>
-      <div className='projectCard'>
-        <img src={exTrackImg} />
-        <div className='projectCard__divText red-border-top'>
+    <article className='projectCard__Container' id='proj-exTrack'>
+      <div className='projectCard exTrack__projCard'>
+        <img className='projectCard__img' src={exTrackImg} />
+        <div className='projectCard__divText red-border-top exTrack__divText'>
           <h2>Exercise Tracker</h2>
           <ProjectStack techArray={techArray} />
           <p className='projectCard__p'><span className='color-red projectCard__marginTop'>2023</span></p>
@@ -32,6 +36,9 @@ export function ExTrack () {
             </BtnProj>
           </div>
         </div>
+      </div>
+      <div className='projectCard__expandButton'>
+        <ExpandButton reff='#contact' colorBtn='red' duration={1000} />
       </div>
     </article>
   )

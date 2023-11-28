@@ -31,6 +31,7 @@
 
   --dark-bg: #141219;
   --dark-bg-trans: rgba(20, 18, 25, 0.7);
+  --darker-bg-trans: rgba(20, 18, 25, 0.90);
 
   --padding-left: 20px;
   --padding-right: 20px;
@@ -85,8 +86,8 @@ body {
 /* Desktop*/
 @media (min-width: 1025px) {
   :root {
-    --padding-left: 10%;
-    --padding-right: 10%;
+    --padding-left: 5%;
+    --padding-right: 5%;
   }
 }
 

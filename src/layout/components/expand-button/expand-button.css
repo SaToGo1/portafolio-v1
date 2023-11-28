@@ -70,3 +70,7 @@
     .expandbutton:hover .expandbutton__Icon-blue{
         filter: invert(0%) sepia(100%) saturate(21%) hue-rotate(303deg) brightness(102%) contrast(104%); /* BLACK */
     }
+
+.expandButton__path {
+    border: 2px solid red;
+}

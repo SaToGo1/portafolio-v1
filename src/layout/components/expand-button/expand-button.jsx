@@ -1,5 +1,5 @@
 import './expand-button.css'
-import expandIcon from '../../../assets/icons/expand.svg'
+// import expandIcon from '../../../assets/icons/expand.svg'
 import { animateScroll } from '../../../utils/animation'
 import PropTypes from 'prop-types'
 import { useState, useEffect } from 'react'
@@ -32,7 +32,10 @@ export function ExpandButton ({ reff, duration = 2000, colorBtn = 'red' }) {
   return (
     <button className={`expandbutton ${colorClass}`} onClick={handleClick} alt='next section'>
       {/* <a href={reff} className='expandbutton'> */}
-      <img src={expandIcon} className={`expandbutton__Icon ${colorClassSVG}`} />
+      {/* <img src={expandIcon} className={`expandbutton__Icon ${colorClassSVG}`} /> */}
+      <svg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 -960 960 960' width='24' className={`expandbutton__Icon ${colorClassSVG}`}>
+        <path className='expandButton__path' d='M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z' />
+      </svg>
       {/* </a> */}
     </button>
   )
