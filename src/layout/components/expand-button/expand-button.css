@@ -72,5 +72,9 @@
     }
 
 .expandButton__path {
-    border: 2px solid red;
+    border: 2px solid  var(--main-red);
+}
+
+.expandbutton-background {
+    background-color: var(--dark-bg-trans);
 }

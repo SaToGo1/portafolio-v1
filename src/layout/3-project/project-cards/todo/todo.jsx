@@ -40,7 +40,7 @@ export function Todo () {
         </div>
       </div>
       <div className='projectCard__expandButton'>
-        <ExpandButton reff='#proj-store' colorBtn='green' duration={1000} />
+        <ExpandButton reff='#proj-store' colorBtn='green' duration={1000} backgroundVisible />
       </div>
     </article>
   )

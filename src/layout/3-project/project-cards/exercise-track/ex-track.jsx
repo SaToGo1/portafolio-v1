@@ -38,7 +38,7 @@ export function ExTrack () {
         </div>
       </div>
       <div className='projectCard__expandButton'>
-        <ExpandButton reff='#contact' colorBtn='red' duration={1000} />
+        <ExpandButton reff='#contact' colorBtn='red' duration={1000} backgroundVisible />
       </div>
     </article>
   )

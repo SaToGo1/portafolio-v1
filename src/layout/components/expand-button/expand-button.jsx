@@ -4,7 +4,7 @@ import { animateScroll } from '../../../utils/animation'
 import PropTypes from 'prop-types'
 import { useState, useEffect } from 'react'
 
-export function ExpandButton ({ reff, duration = 2000, colorBtn = 'red' }) {
+export function ExpandButton ({ reff, duration = 2000, colorBtn = 'red', backgroundVisible = false }) {
   const [colorClass, setColorClass] = useState('')
   const [colorClassSVG, setColorClassSVG] = useState('')
 
@@ -16,15 +16,24 @@ export function ExpandButton ({ reff, duration = 2000, colorBtn = 'red' }) {
   }
 
   useEffect(() => {
+    let colorClass = ''
     if (colorBtn === 'green') {
-      setColorClass('expandbutton-green')
+      colorClass = 'expandbutton-green'
+      setColorClass(colorClass)
       setColorClassSVG('expandbutton__Icon-green')
     } else if (colorBtn === 'blue') {
-      setColorClass('expandbutton-blue')
+      colorClass = 'expandbutton-blue'
+      setColorClass(colorClass)
       setColorClassSVG('expandbutton__Icon-blue')
     } else {
-      setColorClass('expandbutton-red')
+      colorClass = 'expandbutton-red'
+      setColorClass(colorClass)
       setColorClassSVG('expandbutton__Icon-red')
+    }
+
+    if (backgroundVisible) {
+      colorClass = colorClass + ' expandbutton-background'
+      setColorClass(colorClass)
     }
   // eslint-disable-next-line
   }, [colorBtn])
@@ -44,5 +53,6 @@ export function ExpandButton ({ reff, duration = 2000, colorBtn = 'red' }) {
 ExpandButton.propTypes = {
   reff: PropTypes.string,
   duration: PropTypes.number,
-  colorBtn: PropTypes.oneOf(['red', 'blue', 'green'])
+  colorBtn: PropTypes.oneOf(['red', 'blue', 'green']),
+  backgroundVisible: PropTypes.bool
 }

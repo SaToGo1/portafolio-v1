@@ -38,7 +38,7 @@ export function FakeStore () {
         </div>
       </div>
       <div className='projectCard__expandButton store__expandButton'>
-        <ExpandButton reff='#proj-exTrack' colorBtn='blue' duration={1000} />
+        <ExpandButton reff='#proj-exTrack' colorBtn='blue' duration={1000} backgroundVisible />
       </div>
     </article>
   )

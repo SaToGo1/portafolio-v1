@@ -63,7 +63,7 @@
 /* ------- ANIMATIONS ------- */
 .home__button-animation {
     opacity: 0;
-    animation: fadein forwards 2s ease-out 800ms;
+    animation: fadein forwards 2s ease-out 1100ms;
     background-color: var(--dark-bg);
 }
 
@@ -85,12 +85,12 @@
 
 .home__h1-animation {
     opacity: 0;
-    animation: fadeDown forwards 0.8s ease-out 100ms;
+    animation: fadeDown forwards 0.8s ease-out 500ms;
 }
 
 .home__h2-animation {
     opacity: 0;
-    animation: fadeDown forwards 0.8s ease-out 300ms;
+    animation: fadeDown forwards 0.8s ease-out 800ms;
 }
 
 @keyframes pulse {
