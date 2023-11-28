@@ -13,7 +13,7 @@
     flex: 1;
 }
 
-.techProjectCard span {
+.techProjectCard__span {
     font-size: 0.8rem;
     flex: 1;
 }

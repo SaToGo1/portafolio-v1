@@ -44,6 +44,8 @@
         height: 20px;
 
         filter: blur(17px);
+
+        pointer-events: none;
     }
 
 .contactIcons__img {
