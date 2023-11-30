@@ -3,7 +3,7 @@
     background-color: var(--dark-bg);
     /* height: 48px; */
 
-    padding: 20px;
+    padding: 20px var(--padding-left) 20px var(--padding-right);
     height: 13vh;
     outline: 10px solid var(--dark-bg);
     box-shadow: 0px 0px 10px var(--dark-bg);
@@ -14,12 +14,12 @@
     flex-direction: column;
 }
 
-.footer p {
+.footer__p {
     margin: 0;
 }
 
-.footer-a {
-    text-decoration: underline;
+.footer__a {
+    text-decoration: none;
     color: var(--main-red)
 }
 

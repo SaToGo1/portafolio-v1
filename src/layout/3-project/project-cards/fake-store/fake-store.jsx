@@ -12,7 +12,7 @@ export function FakeStore () {
     <article className='projectCard__Container' id='proj-store'>
       <div className='projectCard store__projCard'>
         <img className='projectCard__img' src={storeImg} />
-        <div className='projectCard__divText blue-border-top store__divText store__blue-border'>
+        <div className='projectCard__divText blue-border-top store__divText store__blue-border left__animation'>
           <h2 className='projectCard__divText-h2'>Fake Store</h2>
           <ProjectStack techArray={techArray} />
           <p className='projectCard__p projectCard__marginTop'><span className='color-blue'>2023</span></p>

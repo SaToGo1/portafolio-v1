@@ -9,6 +9,8 @@
     flex-direction: column;
     /* align-items: flex-end; */
     justify-content: flex-end;
+
+    
 }
 
 .contact__background {
@@ -28,10 +30,12 @@
 }
 
 .contact__container {
-    padding: 48px 20px 0px 20px;
+    padding: 48px var(--padding-left) 0px var(--padding-right);
     /* height: 100%; */
     background-color: var(--dark-bg);
     background: linear-gradient(var(--dark-bg-trans), var(--dark-bg) 70%);
+
+    /* border-top: 5px solid var(--main-orange); */
 }
 
     .contact-h2 {

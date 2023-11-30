@@ -7,13 +7,21 @@ import todoImg from '../../../../assets/images/todo-mobile.png'
 import { ProjectStack } from '../../../components/stack-project/project-stack'
 import { BtnProj } from '../../../components/button-project/button-project'
 import { ExpandButton } from '../../../components/expand-button/expand-button'
+// import { useEffect } from 'react'
 
 export function Todo () {
+  // useEffect(() => {
+  //   let element = document.querySelector('.todo__animation');
+
+  //   element.addEventListener('animationend', () => {
+  //     element.classList.remove('todo__animation')
+  //   })
+  // }, [])
   return (
     <article className='projectCard__Container' id='proj-todo'>
       <div className='projectCard todo__projCard'>
         <img className='projectCard__img' src={todoImg} />
-        <div className='projectCard__divText green-border-top todo__divText'>
+        <div className='projectCard__divText green-border-top todo__divText right__animation'>
           <h2 className='projectCard__divText-h2'>To-Do List</h2>
           <ProjectStack techArray={techArray} />
           <p className='projectCard__marginTop projectCard__p'><span className='color-green'>2023</span></p>
