@@ -19,9 +19,14 @@
 }
 
 .footer__a {
-    text-decoration: none;
-    color: var(--main-red)
+    text-decoration: underline;
+    color: var(--main-red);
+    transition: color .4s;
 }
+
+    .footer__a:hover {
+        color: var(--smooth-red)
+    }
 
 /* Mobile */
 @media (max-width: 767px) {

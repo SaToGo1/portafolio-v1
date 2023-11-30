@@ -32,20 +32,25 @@
         transform: scale(1.4);
     }
 
-    .contactIcons__div:hover::after {
-        content: 'hi';
-
-        position: absolute;
-        top: 23.5px;
-        left: 20px;
-
-        background-color: red;
+    .contactIcons__div::after {
+        content: '';
+        background-color: var(--main-red);
         width: 20px;
         height: 20px;
 
         filter: blur(17px);
 
         pointer-events: none;
+        position: absolute;
+        top: 23.5px;
+        left: 20px;
+
+        opacity: 0;
+        transition: opacity 0.4s linear;
+    }
+
+    .contactIcons__div:hover::after {
+        opacity: 1;
     }
 
 .contactIcons__img {
@@ -55,9 +60,18 @@
     flex: 1;
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
     100% {
         transform: scale(1.3);
         opacity: 0;
+    }
+} */
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
