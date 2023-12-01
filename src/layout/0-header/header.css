@@ -96,6 +96,10 @@ header {
         padding-right: var(--padding-right);
     }
 
+    .navList__li {
+        transition: transform 0.2s;
+    }
+
     .navList__li:hover {
         transform: scale(1.3);
     }
