@@ -21,11 +21,11 @@ export function Stack () {
         {/* <TechCard iconName='devicon-jest-plain colored' name='Jest' /> */}
         <TechCard iconName='devicon-git-plain colored' name='Git' />
         <TechCard iconName='devicon-mysql-plain colored' name='MySQL' />
-        <div className='stack__iconContainer'>
+        {/* <div className='stack__iconContainer'>
           <img src={viteIco} className='stack__icon' />
           <span>Vite</span>
         </div>
-        <TechCard iconName='devicon-webpack-plain colored' name='Webpack' />
+        <TechCard iconName='devicon-webpack-plain colored' name='Webpack' /> */}
       </div>
     </div>
   )
